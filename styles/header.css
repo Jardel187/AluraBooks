@@ -43,11 +43,18 @@
 
 .lista-menu__titulo {
     color: var(--laranja);
+    font-size: 16px;
 }
 
 .lista-menu__link {
     color: var(--cor-do-link);
     text-decoration: none;
     text-transform: uppercase;  
-    
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container__botao {
+    display: none;
 }

@@ -1,13 +1,22 @@
 @import url("styles/header.css");
 
+@import url(styles/benner.css);
+
 :root {
     --cor-de-fundo: #ebecee;
     --branco: #ffffff;
     --laranja: #EB9B00;
-    --cor-do-link: #002F52;
+    --cor-do-link: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
+
+    --fonte-principal: "Montserrat Alternates", sans-serif;
+
+    
 }
 
 body {
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 100px;
+    font-weight: 400;
 }
 
