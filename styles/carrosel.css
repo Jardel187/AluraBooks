@@ -16,6 +16,11 @@
     display: none;
 }
 
- .swiper-pagination {
-    position: initial;
- }
+.swiper__pagination {
+    position: relative;
+    padding: 0.5em 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15px;    
+}

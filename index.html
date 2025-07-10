@@ -63,9 +63,10 @@
         <h2 class="carrosel__titulo">Novos Lançamentos</h2>
         <!-- Slider main container -->
     <div class="swiper">
+    <div class="swiper__pagination"></div>
     <!-- Additional required wrapper -->
     <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
+    
     <div class="swiper-wrapper">
     <!-- Slides -->
     <div class="swiper-slide"><img src="imagens/Guia Front-end.svg" alt="imagem sobre o livro sobre o guia front-end"></div>
@@ -90,7 +91,7 @@
             spaceBetween: 10,
             slidesPerView: 3,
              pagination: {
-    el: '.swiper-pagination',
+    el: '.swiper__pagination',
     type: 'bullets',
   },
         });
