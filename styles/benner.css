@@ -92,17 +92,20 @@
 /** segundo baner **/
 
 .banner__segundo {
-
-    padding: 2em 2em;
+    padding: 1em;
 }
 
 .banner__titulo-segundo {
     font-size: 18px;
     font-weight: 500;
+    background: var(--cor-do-link);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .banner__texto-segundo {
-    font-weight: 400;
+    font-weight: 300;
     margin: 1em 0;
     font-size: 16px;
 }
@@ -110,19 +113,17 @@
 .banner__pesquisa-segundo {
     
     background-color: transparent;
-    border: 1px solid;
+    border: 1px solid var(--azul);
     border-radius: 24px;
     padding: 1em;
-    width: 100%;
+    width: 90%;
 }
 
 .banner__pesquisa-segundo::placeholder {
-    font-size: 14px;
-    font-weight: 400;
-    
-    text-align: center;
+    padding-left: 2.2em;
+    font-family: var(--fonte-principal);
     font-family: var(--fonte-principal);
     background: url("../imagens/Email.svg") no-repeat;
-    background-position: 0.8em;
+    color: var(--azul);
 }
 
