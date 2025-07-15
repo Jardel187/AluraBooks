@@ -12,11 +12,11 @@
     width: 100%;
 }
 
-.swiper__button_prev, .swiper__button_next{
-    display: block;
+.swiper-button-prev, .swiper-button-next {
+    display: none;
 }
 
-.swiper__pagination {
+.swiper-pagination {
     position: relative;
     padding: 0.5em 0;
     display: flex;
