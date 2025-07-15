@@ -31,7 +31,7 @@
     text-align: center;
     font-family: var(--fonte-principal);
     background: url("../imagens/Lupa.svg") no-repeat;
-    padding-left: 2.2em;
+    background-position: 0.7em;
 }
 
 .card__descriçao {
@@ -127,3 +127,17 @@
     color: var(--azul);
 }
 
+@media screen and (min-width:1024px) {
+    .banner__titulo {
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    .banner__pesquisa {
+        width: 50%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 5.7em;
+    }
+}
