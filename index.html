@@ -88,6 +88,8 @@
         <!-- Slider main container -->
 <div class="swiper">
   <!-- Additional required wrapper -->
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
   <div class="swiper-wrapper">
     <!-- Slides -->
     <div class="swiper-slide"><img src="imagens/ApacheKafka.svg" alt="livro sobre apche kaifa e spring boot da aulura books "></div>
@@ -98,8 +100,7 @@
     <div class="swiper-slide"><img src="imagens/Portugol.svg" alt="Livro sobre Portugol"></div>
     
   </div>
-  <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
+  
 
   <!-- If we need navigation buttons -->
   <div class="swiper-button-prev"></div>
@@ -108,6 +109,28 @@
   <!-- If we need scrollbar -->
   <div class="swiper-scrollbar"></div>
 </div>
+    <div class="card">
+    <!--1 linha-->
+    <div class="card__descriçao">
+        <!--1 coluno-->
+        <div class="descriçao">
+            <h3 class="descriçao__titulo"> Talvez você também se interesse por... </h3>
+            <h2 class="descriçao__titulo-livro">Angular 11 e Firebase</h2>
+            <p class="descriçao__texto"> Construindo uma aplicação integrada com a plataforma do Google. </p>
+         </div>
+         <!--2 coluna-->
+         <img src="imagens/Angular.svg" alt="icone do angular" class="descriçao__imagem">
+    </div>
+   
+    <!--2 linha-->
+    <div class="card__botoes">
+        <!--coluno-->
+        <ul class="botoes">
+            <li class="botoes__item"> <img src="imagens/Favoritos.svg" alt="favoritar o livro"> </li>
+            <li class="botoes__item"> <img src="imagens/Compras.svg" alt="Adicionar ao carrinho"></li>
+        </ul>
+        <a href="#" class="botoes__ancora">Saiba mais</a>
+    </div> 
     </section>
 
 </div>
@@ -119,7 +142,7 @@
         <h2 class="carrosel__titulo">mais vendidos</h2>
          <!-- Slider main container -->
     <div class="swiper">
-    <div class="swiper__pagination"></div>
+    <div class="swiper-pagination"></div>
     <!-- Additional required wrapper -->
     <!-- If we need pagination -->
     
@@ -130,12 +153,13 @@
     <div class="swiper-slide"><img src="imagens/Javascript.svg" alt="livro sobre JavaScript"></div>
     <div class="swiper-slide"><img src="imagens/Portugol.svg" alt="Livro sobre portugol"> </div>
     <div class="swiper-slide"><img src="imagens/Acessibilidade.svg" alt="sobre Acessibilidade"></div>
+    <div class="swiper-slide"><img src="imagens/ApacheKafka.svg" alt="livro sobre apche kaifa e spring boot da aulura books "></div>
   </div>
   
   
   <!-- If we need navigation buttons -->
-  <div class="swiper__button_prev"></div>
-  <div class="swiper__button_next"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
 
 <div class="card">
     <!--1 linha-->
@@ -212,6 +236,10 @@
         const swiper = new Swiper('.swiper', {
         spaceBetween: 10,
         slidesPerView: 3,
+        pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+    },
         });
     </script>
 
