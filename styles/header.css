@@ -67,6 +67,14 @@
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
+
+.container__titulo--segundo {
+    display: none;
+}
+
 /** outras telas **/
 
 @media screen and (min-width: 1024px) {
@@ -80,7 +88,11 @@
 
     .container__titulo {
         font-weight: 400;
-        display: block;
+        
+    }
+
+    .container__titulo--segundo {
+        display: none;
     }
 
     .container__titulo--negrito {
@@ -117,4 +129,40 @@
     .opcoes__botao {
         display: none;
     }
+}
+
+@media screen and (min-width: 1728px) {
+    .container {
+        display: flex;
+    }
+    
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opcoes {
+        padding-right: 45em;
+        padding-top: 0.4em;
+    }
+
+    .container__titulo--segundo {
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+        font-size: 30px;
+    }
+
+    .container__titulo--negrito--segundo {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    
 }

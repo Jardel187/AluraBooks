@@ -25,7 +25,7 @@
     margin-top: 15px;    
 }
 
-@media screen and (min-width: 768px ) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) {
     .carrosel__titulo{
         font-size: 26px;
         
