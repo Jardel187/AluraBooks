@@ -1,0 +1,57 @@
+.banner__segundo {
+    padding: 1em;
+}
+
+.banner__titulo-segundo {
+    font-size: 18px;
+    font-weight: 500;
+    background: var(--cor-do-link);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner__texto-segundo {
+    font-weight: 300;
+    margin: 1em 0;
+    font-size: 16px;
+}
+
+.banner__pesquisa-segundo {
+    
+    background-color: transparent;
+    border: 1px solid var(--azul);
+    border-radius: 24px;
+    padding: 1em;
+    width: 90%;
+}
+
+.banner__pesquisa-segundo::placeholder {
+    padding-left: 2.2em;
+    font-family: var(--fonte-principal);
+    font-family: var(--fonte-principal);
+    background: url("../imagens/Email.svg") no-repeat;
+    color: var(--azul);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .banner__segundo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner__pesquisa-segundo {
+        width: 45%;
+    }
+
+    .banner__texto-segundo {
+        margin-right: 1.5em;
+        font-size: 20px;
+    }
+
+    .banner__titulo-segundo {
+        font-size: 27px;
+        width: 70%;
+    }
+}

@@ -1,6 +1,7 @@
 @import url("styles/header.css");
 @import url("styles/benner.css");
 @import url("styles/carrosel.css");
+@import url("styles/bannerll.css");
 @import url("styles/rodape.css");
 @import url("styles/topicos.css");
 
@@ -12,15 +13,15 @@
     --azul: #002F52;
     --preto: #000000;
 
-    --fonte-principal: "Montserrat Alternates", sans-serif;
-    --fonte-secundaria: "Josefin Sans";
+    --fonte-principal: "Josefin Sans", sans-serif;
+    --fonte-secundaria: "Lato", sans-serif;
     
 }
 
 body {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
 }
 
