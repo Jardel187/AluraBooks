@@ -51,4 +51,21 @@
         display: block;
         top: 65%;
     }
+
+    .descriçao__titulo {
+        padding: 0.4em 0;
+    }
+
+     .descriçao__titulo-livro{
+        font-size: 20px;
+    }
+
+    .descriçao__titulo {
+        font-size: 20px;
+    }
+
+    .descriçao__texto {
+        font-size: 18px;
+        width: 95%;
+    }
 }
