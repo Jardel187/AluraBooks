@@ -5,3 +5,21 @@ hr {
 .rodape__titulo {
     padding: 1em;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .rodape {
+    display: flex;
+    justify-content: space-around;
+    }
+
+    .lista-rodape__item {
+        display: flex;
+        align-items: center;
+    }
+
+    .lista-rodape__link {
+        text-decoration: none;
+        color: var(--cinza);
+
+    }
+}
