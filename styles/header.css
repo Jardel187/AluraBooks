@@ -68,7 +68,7 @@
 }
 
 .container__texto {
-    display: none;
+   display: none; 
 }
 
 .container__titulo--segundo {
@@ -134,6 +134,7 @@
 @media screen and (min-width: 1728px) {
     .container {
         display: flex;
+        
     }
     
     .container__link {
@@ -149,7 +150,11 @@
 
     .opcoes {
         padding-right: 45em;
-        padding-top: 0.4em;
+        padding-top: 1.4em;
+    }
+
+    .container__texto {
+        display: block;
     }
 
     .container__titulo--segundo {
@@ -163,6 +168,5 @@
         font-weight: 700;
         font-size: 30px;
     }
-
     
 }
